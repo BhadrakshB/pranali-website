@@ -1,16 +1,18 @@
 "use client";
 import Button from "../../components/Button";
 import ImageOverlay from "../components/ImageOverlay";
+import FloatingHearts from "../components/FloatingHearts";
 
 const Story4 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-yellow-50 to-orange-50 py-12 px-4">
-      <div className="container mx-auto max-w-4xl flex flex-col items-center">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-orange-600">
+    <div className="min-h-screen bg-gradient-to-br from-amber-900 via-yellow-900 to-orange-900 py-12 px-4 relative overflow-hidden">
+      <FloatingHearts />
+      <div className="container mx-auto max-w-4xl flex flex-col items-center relative z-10">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-orange-300">
           The Return
         </h1>
 
-        <p className="text-lg md:text-xl text-amber-900/80 mb-12 text-center max-w-2xl leading-relaxed">
+        <p className="text-lg md:text-xl text-amber-100/90 mb-12 text-center max-w-2xl leading-relaxed">
           Now, as you turn 21, I just want to tell you how much I love you and
           how deeply I value what we share. I promise I'll never do anything
           that makes you sad. The trust, loyalty, and excitement we have built
@@ -28,7 +30,7 @@ const Story4 = () => {
           perfectly balanced.
           <br />
           <br />
-          <span className="text-2xl font-semibold text-amber-700">
+          <span className="text-2xl font-semibold text-amber-300">
             Happy 21st Birthday, Pranali ❤️😘
           </span>
           <br />

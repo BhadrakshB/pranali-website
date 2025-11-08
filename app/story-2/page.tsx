@@ -1,16 +1,18 @@
 "use client";
 import Button from "../../components/Button";
 import ImageOverlay from "../components/ImageOverlay";
+import ParticleDrift from "../components/ParticleDrift";
 
 const Story3 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 py-12 px-4">
-      <div className="container mx-auto max-w-4xl flex flex-col items-center">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-600">
+    <div className="min-h-screen bg-gradient-to-br from-orange-900 via-amber-900 to-yellow-900 py-12 px-4 relative overflow-hidden">
+      <ParticleDrift />
+      <div className="container mx-auto max-w-4xl flex flex-col items-center relative z-10">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-amber-300">
           The Discovery
         </h1>
 
-        <p className="text-lg md:text-xl text-orange-900/80 mb-12 text-center max-w-2xl leading-relaxed">
+        <p className="text-lg md:text-xl text-orange-100/90 mb-12 text-center max-w-2xl leading-relaxed">
           Our friendship grew stronger with every silly argument, every
           late-night talk, every movie night, and every class bunk that ended
           with good food or crazy games at Tales Over Tables. We had so many

@@ -1,16 +1,18 @@
 "use client";
 import Button from "../components/Button";
 import ImageOverlay from "./components/ImageOverlay";
+import TwinklingStars from "./components/TwinklingStars";
 
 const Story1 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 py-12 px-4">
-      <div className="container mx-auto max-w-4xl flex flex-col items-center">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-rose-600">
+    <div className="min-h-screen bg-gradient-to-br from-amber-900 via-orange-900 to-rose-900 py-12 px-4 relative overflow-hidden">
+      <TwinklingStars />
+      <div className="container mx-auto max-w-4xl flex flex-col items-center relative z-10">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-rose-300">
           The Beginning
         </h1>
 
-        <p className="text-lg md:text-xl text-amber-900/80 mb-12 text-center max-w-2xl leading-relaxed">
+        <p className="text-lg md:text-xl text-amber-100/90 mb-12 text-center max-w-2xl leading-relaxed">
           Looking back, it's funny how the smallest moments turn into the most
           beautiful memories. What started as a simple classroom annoyance
           slowly turned into laughter, friendship, and eventually, a bond that
