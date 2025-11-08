@@ -1,74 +1,86 @@
 "use client";
-import Button from "../components/Button";
-import ImageOverlay from "./components/ImageOverlay";
+import Button from "../../components/Button";
+import ImageOverlay from "../components/ImageOverlay";
 
-const Story1 = () => {
+const Story3 = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50 py-12 px-4">
       <div className="container mx-auto max-w-4xl flex flex-col items-center">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-rose-600">
-          The Beginning
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-amber-600">
+          The Discovery
         </h1>
 
-        <p className="text-lg md:text-xl text-amber-900/80 mb-12 text-center max-w-2xl leading-relaxed">
-          Looking back, it's funny how the smallest moments turn into the most
-          beautiful memories. What started as a simple classroom annoyance
-          slowly turned into laughter, friendship, and eventually, a bond that
-          feels like home.
+        <p className="text-lg md:text-xl text-orange-900/80 mb-12 text-center max-w-2xl leading-relaxed">
+          Our friendship grew stronger with every silly argument, every
+          late-night talk, every movie night, and every class bunk that ended
+          with good food or crazy games at Tales Over Tables. We had so many
+          memories — from shopping trips and temple visits to rope climbing and
+          nail-painting lessons. Even in class, we found joy in the chaos —
+          throwing water, hiding phones, and playing chain-cut or out-out like
+          little kids.
+          <br />
+          <br />
+          Somewhere between all the laughter, we moved from just being friends
+          to best friends… and now, to a even bigger step. Looking back, I
+          sometimes wonder if it would've been better if we had met earlier. But
+          maybe it's good we didn't — because the people and moments in between
+          taught us patience, understanding, and how to truly value each other.
+          Even the tough times brought us closer, especially when we laughed and
+          ranted about others together.
         </p>
 
         <div className="w-full mb-12 grid grid-cols-2 gap-4 md:gap-6">
           <ImageOverlay
-            src="/photos/1.jpeg"
-            alt="Memory 1"
+            src="/photos/15.jpeg"
+            alt="Memory 15"
             width={400}
             height={300}
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInLeft_0.8s_ease-out_0s_both]"
           />
           <ImageOverlay
-            src="/photos/2.jpeg"
-            alt="Memory 2"
+            src="/photos/16.jpeg"
+            alt="Memory 16"
             width={400}
             height={300}
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInRight_0.8s_ease-out_0s_both]"
           />
           <ImageOverlay
-            src="/photos/3.jpeg"
-            alt="Memory 3"
+            src="/photos/17.jpeg"
+            alt="Memory 17"
             width={400}
             height={300}
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInLeft_0.8s_ease-out_1.5s_both]"
           />
           <ImageOverlay
-            src="/photos/4.jpeg"
-            alt="Memory 4"
+            src="/photos/18.jpeg"
+            alt="Memory 18"
             width={400}
             height={300}
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInRight_0.8s_ease-out_1.5s_both]"
           />
           <ImageOverlay
-            src="/photos/5.jpeg"
-            alt="Memory 5"
+            src="/photos/19.jpeg"
+            alt="Memory 19"
             width={400}
             height={300}
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInLeft_0.8s_ease-out_3s_both]"
           />
           <ImageOverlay
-            src="/photos/6.jpeg"
-            alt="Memory 6"
+            src="/photos/20.jpeg"
+            alt="Memory 20"
             width={400}
             height={300}
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInRight_0.8s_ease-out_3s_both]"
           />
           <ImageOverlay
-            src="/photos/7.jpeg"
-            alt="Memory 7"
+            src="/photos/21.jpeg"
+            alt="Memory 21"
             width={400}
             height={300}
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
@@ -76,10 +88,10 @@ const Story1 = () => {
           />
         </div>
 
-        <Button href="/story-1">Continue the Journey →</Button>
+        <Button href="/story-3">See What's Next →</Button>
       </div>
     </div>
   );
 };
 
-export default Story1;
+export default Story3;
