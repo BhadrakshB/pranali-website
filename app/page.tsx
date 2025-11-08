@@ -68,14 +68,18 @@ const Story1 = () => {
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInRight_0.8s_ease-out_3s_both]"
           />
-          <ImageOverlay
-            src="/photos/7.jpeg"
-            alt="Memory 7"
-            width={400}
-            height={300}
-            className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            animationClass="animate-[slideInLeft_0.8s_ease-out_4.5s_both]"
-          />
+          <div className="col-span-2 flex justify-center">
+            <div className="w-1/2 animate-[slideInLeft_0.8s_ease-out_4.5s_both]">
+              <ImageOverlay
+                src="/photos/7.jpeg"
+                alt="Memory 7"
+                width={400}
+                height={300}
+                className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                animationClass=""
+              />
+            </div>
+          </div>
         </div>
 
         <Button href="/story-1">Continue the Journey →</Button>

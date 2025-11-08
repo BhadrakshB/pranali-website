@@ -86,13 +86,15 @@ const Story4 = () => {
             className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
             animationClass="animate-[slideInRight_0.8s_ease-out_3s_both]"
           />
-          <div className="animate-[slideInLeft_0.8s_ease-out_4.5s_both]">
-            <video
-              controls
-              className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
-            >
-              <source src="/photos/28.mp4" type="video/mp4" />
-            </video>
+          <div className="col-span-2 flex justify-center">
+            <div className="w-1/2 animate-[slideInLeft_0.8s_ease-out_4.5s_both]">
+              <video
+                controls
+                className="rounded-2xl w-full h-auto shadow-lg hover:shadow-2xl transition-shadow duration-300"
+              >
+                <source src="/photos/28.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
         </div>
 
